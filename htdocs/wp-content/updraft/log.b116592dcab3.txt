@@ -1,0 +1,501 @@
+0000.001 (0) Opened log file at time: Wed, 22 Jan 2025 02:11:47 +0000 on https://healthsathi.tech
+0000.002 (0) UpdraftPlus WordPress backup plugin (https://updraftplus.com): 1.24.12 WP: 6.7.1 PHP: 8.2.25 (apache2handler, Linux webserver.cluster.com 5.4.7-362.18.1.el9_5.x86_64 #1 SMP PREEMPT_DYNAMIC Wed Jan 22 2:11:47 UTC 2025 x86_64 x86_64 x86_64 GNU/Linux) MySQL: 10.6.19-MariaDB (max packet size=8388608) WPLANG: en_US Server: Apache safe_mode: 0 max_execution_time: 60 memory_limit: 512M (used: 71.9M | 75M) multisite: N openssl: OpenSSL 1.1.1w  11 Sep 2023 mcrypt: N LANG: C ZipArchive::addFile: Y
+0000.003 (0) Free space on disk containing Updraft's temporary directory: 6470158.5 MB
+0000.006 (0) Tasks: Backup files: 1 (schedule: fortnightly) Backup DB: 1 (schedule: fortnightly)
+0000.011 (0) Requesting semaphore lock (fd) (apparently not via scheduler)
+0000.014 (0) Set semaphore last lock (fd) time to 2025-01-22 02:11:47
+0000.015 (0) Semaphore lock (fd) complete
+0000.019 (0) Backup run: resumption=0, nonce=b116592dcab3, file_nonce=b116592dcab3 begun at=1737511907 (0s ago), job type=backup
+0000.020 (0) Scheduling a resumption (1) after 300 seconds (1737512207) in case this run gets aborted
+0000.036 (0) PHP event: code E_WARNING: file_exists(): open_basedir restriction in effect. File(/proc/user_beancounters) is not within the allowed path(s): (/php_sessions:/tmp:..:/var/www/errors:/home/vol19_1/infinityfree.com/if0_37179288/htdocs) (line 188, wp-content/plugins/updraftplus/backup.php)
+0000.037 (0) Checking if we have a zip executable available
+0000.039 (0) Creation of backups of directories: beginning
+0000.080 (0) Beginning creation of dump of plugins (split every: 400 MB)
+0000.084 (0) PHP event: Could not ask cPanel about disk space (open_basedir) - this is not an error (line 420, wp-content/plugins/updraftplus/class-updraftplus.php)
+0008.725 (0) Total entities for the zip file: 1422 directories, 8149 files (0 skipped as non-modified), 146.6 MB
+0008.731 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 2.0 seconds have passed since the last write (0 MB, 1 (1) files added so far); re-opening (prior size: 0 KB)
+0008.852 (0) Zip: backup_2025-01-21-2111_HealthSathi_b116592dcab3-plugins.zip.tmp: 100 files added (on-disk size: 257.8 KB)
+0008.928 (0) Zip: backup_2025-01-21-2111_HealthSathi_b116592dcab3-plugins.zip.tmp: 200 files added (on-disk size: 257.8 KB)
+0009.030 (0) Zip: backup_2025-01-21-2111_HealthSathi_b116592dcab3-plugins.zip.tmp: 300 files added (on-disk size: 257.8 KB)
+0009.134 (0) Zip: backup_2025-01-21-2111_HealthSathi_b116592dcab3-plugins.zip.tmp: 400 files added (on-disk size: 257.8 KB)
+0009.240 (0) Zip: backup_2025-01-21-2111_HealthSathi_b116592dcab3-plugins.zip.tmp: 500 files added (on-disk size: 257.8 KB)
+0009.346 (0) Zip: backup_2025-01-21-2111_HealthSathi_b116592dcab3-plugins.zip.tmp: 600 files added (on-disk size: 257.8 KB)
+0009.448 (0) Zip: backup_2025-01-21-2111_HealthSathi_b116592dcab3-plugins.zip.tmp: 700 files added (on-disk size: 257.8 KB)
+0009.546 (0) Zip: backup_2025-01-21-2111_HealthSathi_b116592dcab3-plugins.zip.tmp: 800 files added (on-disk size: 257.8 KB)
+0009.630 (0) Zip: backup_2025-01-21-2111_HealthSathi_b116592dcab3-plugins.zip.tmp: 900 files added (on-disk size: 257.8 KB)
+0009.707 (0) Zip: backup_2025-01-21-2111_HealthSathi_b116592dcab3-plugins.zip.tmp: 1000 files added (on-disk size: 257.8 KB)
+0009.710 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 1000 files added on this batch (13.4 MB, 8149 files batched, 1001 (1002) added so far); re-opening (prior size: 257.8 KB)
+0012.718 (0) Zip: backup_2025-01-21-2111_HealthSathi_b116592dcab3-plugins.zip.tmp: 1100 files added (on-disk size: 6913.3 KB)
+0012.814 (0) Zip: backup_2025-01-21-2111_HealthSathi_b116592dcab3-plugins.zip.tmp: 1200 files added (on-disk size: 6913.3 KB)
+0012.902 (0) Zip: backup_2025-01-21-2111_HealthSathi_b116592dcab3-plugins.zip.tmp: 1300 files added (on-disk size: 6913.3 KB)
+0012.980 (0) Zip: backup_2025-01-21-2111_HealthSathi_b116592dcab3-plugins.zip.tmp: 1400 files added (on-disk size: 6913.3 KB)
+0013.064 (0) Zip: backup_2025-01-21-2111_HealthSathi_b116592dcab3-plugins.zip.tmp: 1500 files added (on-disk size: 6913.3 KB)
+0013.137 (0) Zip: backup_2025-01-21-2111_HealthSathi_b116592dcab3-plugins.zip.tmp: 1600 files added (on-disk size: 6913.3 KB)
+0013.215 (0) Zip: backup_2025-01-21-2111_HealthSathi_b116592dcab3-plugins.zip.tmp: 1700 files added (on-disk size: 6913.3 KB)
+0013.315 (0) Zip: backup_2025-01-21-2111_HealthSathi_b116592dcab3-plugins.zip.tmp: 1800 files added (on-disk size: 6913.3 KB)
+0013.415 (0) Zip: backup_2025-01-21-2111_HealthSathi_b116592dcab3-plugins.zip.tmp: 1900 files added (on-disk size: 6913.3 KB)
+0013.522 (0) Zip: backup_2025-01-21-2111_HealthSathi_b116592dcab3-plugins.zip.tmp: 2000 files added (on-disk size: 6913.3 KB)
+0013.526 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 1000 files added on this batch (8.9 MB, 8149 files batched, 1001 (2003) added so far); re-opening (prior size: 6913.3 KB)
+0016.219 (0) Zip: backup_2025-01-21-2111_HealthSathi_b116592dcab3-plugins.zip.tmp: 2100 files added (on-disk size: 10015.2 KB)
+0016.415 (0) Zip: backup_2025-01-21-2111_HealthSathi_b116592dcab3-plugins.zip.tmp: 2200 files added (on-disk size: 10015.2 KB)
+0016.614 (0) Zip: backup_2025-01-21-2111_HealthSathi_b116592dcab3-plugins.zip.tmp: 2300 files added (on-disk size: 10015.2 KB)
+0016.795 (0) Zip: backup_2025-01-21-2111_HealthSathi_b116592dcab3-plugins.zip.tmp: 2400 files added (on-disk size: 10015.2 KB)
+0016.924 (0) Zip: backup_2025-01-21-2111_HealthSathi_b116592dcab3-plugins.zip.tmp: 2500 files added (on-disk size: 10015.2 KB)
+0017.093 (0) Zip: backup_2025-01-21-2111_HealthSathi_b116592dcab3-plugins.zip.tmp: 2600 files added (on-disk size: 10015.2 KB)
+0017.229 (0) Zip: backup_2025-01-21-2111_HealthSathi_b116592dcab3-plugins.zip.tmp: 2700 files added (on-disk size: 10015.2 KB)
+0017.297 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 25 MB added on this batch (25.4 MB, 8149 files batched, 722 (2725) added so far); re-opening (prior size: 10015.2 KB)
+0022.285 (0) A useful amount of data was added after this amount of zip processing: 7 s (normalised: 6.9 s, rate: 3715.4 KB/s)
+0022.489 (0) Zip: backup_2025-01-21-2111_HealthSathi_b116592dcab3-plugins.zip.tmp: 2800 files added (on-disk size: 17643.3 KB)
+0022.703 (0) Zip: backup_2025-01-21-2111_HealthSathi_b116592dcab3-plugins.zip.tmp: 2900 files added (on-disk size: 17643.3 KB)
+0022.917 (0) Zip: backup_2025-01-21-2111_HealthSathi_b116592dcab3-plugins.zip.tmp: 3000 files added (on-disk size: 17643.3 KB)
+0023.118 (0) Zip: backup_2025-01-21-2111_HealthSathi_b116592dcab3-plugins.zip.tmp: 3100 files added (on-disk size: 17643.3 KB)
+0023.215 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 25 MB added on this batch (25 MB, 8149 files batched, 443 (3168) added so far); re-opening (prior size: 17643.3 KB)
+0028.844 (0) A useful amount of data was added after this amount of zip processing: 6.6 s (normalised: 6.6 s, rate: 3899.4 KB/s)
+0028.894 (0) Zip: backup_2025-01-21-2111_HealthSathi_b116592dcab3-plugins.zip.tmp: 3200 files added (on-disk size: 24531.3 KB)
+0028.971 (0) Zip: backup_2025-01-21-2111_HealthSathi_b116592dcab3-plugins.zip.tmp: 3300 files added (on-disk size: 24531.3 KB)
+0029.044 (0) Zip: backup_2025-01-21-2111_HealthSathi_b116592dcab3-plugins.zip.tmp: 3400 files added (on-disk size: 24531.3 KB)
+0029.114 (0) Zip: backup_2025-01-21-2111_HealthSathi_b116592dcab3-plugins.zip.tmp: 3500 files added (on-disk size: 24531.3 KB)
+0029.185 (0) Zip: backup_2025-01-21-2111_HealthSathi_b116592dcab3-plugins.zip.tmp: 3600 files added (on-disk size: 24531.3 KB)
+0029.257 (0) Zip: backup_2025-01-21-2111_HealthSathi_b116592dcab3-plugins.zip.tmp: 3700 files added (on-disk size: 24531.3 KB)
+0029.331 (0) Zip: backup_2025-01-21-2111_HealthSathi_b116592dcab3-plugins.zip.tmp: 3800 files added (on-disk size: 24531.3 KB)
+0029.405 (0) Zip: backup_2025-01-21-2111_HealthSathi_b116592dcab3-plugins.zip.tmp: 3900 files added (on-disk size: 24531.3 KB)
+0029.477 (0) Zip: backup_2025-01-21-2111_HealthSathi_b116592dcab3-plugins.zip.tmp: 4000 files added (on-disk size: 24531.3 KB)
+0029.554 (0) Zip: backup_2025-01-21-2111_HealthSathi_b116592dcab3-plugins.zip.tmp: 4100 files added (on-disk size: 24531.3 KB)
+0029.615 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 1000 files added on this batch (12.3 MB, 8149 files batched, 1001 (4169) added so far); re-opening (prior size: 24531.3 KB)
+0031.379 (0) Zip: backup_2025-01-21-2111_HealthSathi_b116592dcab3-plugins.zip.tmp: 4200 files added (on-disk size: 27889.7 KB)
+0031.524 (0) Zip: backup_2025-01-21-2111_HealthSathi_b116592dcab3-plugins.zip.tmp: 4300 files added (on-disk size: 27889.7 KB)
+0031.711 (0) Zip: backup_2025-01-21-2111_HealthSathi_b116592dcab3-plugins.zip.tmp: 4400 files added (on-disk size: 27889.7 KB)
+0031.897 (0) Zip: backup_2025-01-21-2111_HealthSathi_b116592dcab3-plugins.zip.tmp: 4500 files added (on-disk size: 27889.7 KB)
+0032.090 (0) Zip: backup_2025-01-21-2111_HealthSathi_b116592dcab3-plugins.zip.tmp: 4600 files added (on-disk size: 27889.7 KB)
+0032.227 (0) Zip: backup_2025-01-21-2111_HealthSathi_b116592dcab3-plugins.zip.tmp: 4700 files added (on-disk size: 27889.7 KB)
+0032.348 (0) Zip: backup_2025-01-21-2111_HealthSathi_b116592dcab3-plugins.zip.tmp: 4800 files added (on-disk size: 27889.7 KB)
+0032.513 (0) Zip: backup_2025-01-21-2111_HealthSathi_b116592dcab3-plugins.zip.tmp: 4900 files added (on-disk size: 27889.7 KB)
+0032.689 (0) Zip: backup_2025-01-21-2111_HealthSathi_b116592dcab3-plugins.zip.tmp: 5000 files added (on-disk size: 27889.7 KB)
+0032.758 (0) Zip: backup_2025-01-21-2111_HealthSathi_b116592dcab3-plugins.zip.tmp: 5100 files added (on-disk size: 27889.7 KB)
+0032.813 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 1000 files added on this batch (4.1 MB, 8149 files batched, 1001 (5170) added so far); re-opening (prior size: 27889.7 KB)
+0033.691 (0) Zip: backup_2025-01-21-2111_HealthSathi_b116592dcab3-plugins.zip.tmp: 5200 files added (on-disk size: 29288.6 KB)
+0033.816 (0) Zip: backup_2025-01-21-2111_HealthSathi_b116592dcab3-plugins.zip.tmp: 5300 files added (on-disk size: 29288.6 KB)
+0033.983 (0) Zip: backup_2025-01-21-2111_HealthSathi_b116592dcab3-plugins.zip.tmp: 5400 files added (on-disk size: 29288.6 KB)
+0034.107 (0) Zip: backup_2025-01-21-2111_HealthSathi_b116592dcab3-plugins.zip.tmp: 5500 files added (on-disk size: 29288.6 KB)
+0034.286 (0) Zip: backup_2025-01-21-2111_HealthSathi_b116592dcab3-plugins.zip.tmp: 5600 files added (on-disk size: 29288.6 KB)
+0034.499 (0) Zip: backup_2025-01-21-2111_HealthSathi_b116592dcab3-plugins.zip.tmp: 5700 files added (on-disk size: 29288.6 KB)
+0034.623 (0) Zip: backup_2025-01-21-2111_HealthSathi_b116592dcab3-plugins.zip.tmp: 5800 files added (on-disk size: 29288.6 KB)
+0034.798 (0) Zip: backup_2025-01-21-2111_HealthSathi_b116592dcab3-plugins.zip.tmp: 5900 files added (on-disk size: 29288.6 KB)
+0035.006 (0) Zip: backup_2025-01-21-2111_HealthSathi_b116592dcab3-plugins.zip.tmp: 6000 files added (on-disk size: 29288.6 KB)
+0035.205 (0) Zip: backup_2025-01-21-2111_HealthSathi_b116592dcab3-plugins.zip.tmp: 6100 files added (on-disk size: 29288.6 KB)
+0035.387 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 1000 files added on this batch (10.7 MB, 8149 files batched, 1001 (6171) added so far); re-opening (prior size: 29288.6 KB)
+0038.113 (0) Zip: backup_2025-01-21-2111_HealthSathi_b116592dcab3-plugins.zip.tmp: 6200 files added (on-disk size: 34667.1 KB)
+0038.292 (0) Zip: backup_2025-01-21-2111_HealthSathi_b116592dcab3-plugins.zip.tmp: 6300 files added (on-disk size: 34667.1 KB)
+0038.423 (0) Zip: backup_2025-01-21-2111_HealthSathi_b116592dcab3-plugins.zip.tmp: 6400 files added (on-disk size: 34667.1 KB)
+0038.594 (0) Zip: backup_2025-01-21-2111_HealthSathi_b116592dcab3-plugins.zip.tmp: 6500 files added (on-disk size: 34667.1 KB)
+0038.722 (0) Zip: backup_2025-01-21-2111_HealthSathi_b116592dcab3-plugins.zip.tmp: 6600 files added (on-disk size: 34667.1 KB)
+0038.900 (0) Zip: backup_2025-01-21-2111_HealthSathi_b116592dcab3-plugins.zip.tmp: 6700 files added (on-disk size: 34667.1 KB)
+0039.084 (0) Zip: backup_2025-01-21-2111_HealthSathi_b116592dcab3-plugins.zip.tmp: 6800 files added (on-disk size: 34667.1 KB)
+0039.212 (0) Zip: backup_2025-01-21-2111_HealthSathi_b116592dcab3-plugins.zip.tmp: 6900 files added (on-disk size: 34667.1 KB)
+0039.306 (0) Zip: backup_2025-01-21-2111_HealthSathi_b116592dcab3-plugins.zip.tmp: 7000 files added (on-disk size: 34667.1 KB)
+0039.383 (0) Zip: backup_2025-01-21-2111_HealthSathi_b116592dcab3-plugins.zip.tmp: 7100 files added (on-disk size: 34667.1 KB)
+0039.408 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 25 MB added on this batch (25 MB, 8149 files batched, 965 (7136) added so far); re-opening (prior size: 34667.1 KB)
+0043.808 (0) A useful amount of data was added after this amount of zip processing: 6.5 s (normalised: 6.5 s, rate: 3919.9 KB/s)
+0043.923 (0) Zip: backup_2025-01-21-2111_HealthSathi_b116592dcab3-plugins.zip.tmp: 7200 files added (on-disk size: 42979.4 KB)
+0044.091 (0) Zip: backup_2025-01-21-2111_HealthSathi_b116592dcab3-plugins.zip.tmp: 7300 files added (on-disk size: 42979.4 KB)
+0044.291 (0) Zip: backup_2025-01-21-2111_HealthSathi_b116592dcab3-plugins.zip.tmp: 7400 files added (on-disk size: 42979.4 KB)
+0044.485 (0) Zip: backup_2025-01-21-2111_HealthSathi_b116592dcab3-plugins.zip.tmp: 7500 files added (on-disk size: 42979.4 KB)
+0044.681 (0) Zip: backup_2025-01-21-2111_HealthSathi_b116592dcab3-plugins.zip.tmp: 7600 files added (on-disk size: 42979.4 KB)
+0044.804 (0) Zip: backup_2025-01-21-2111_HealthSathi_b116592dcab3-plugins.zip.tmp: 7700 files added (on-disk size: 42979.4 KB)
+0044.991 (0) Zip: backup_2025-01-21-2111_HealthSathi_b116592dcab3-plugins.zip.tmp: 7800 files added (on-disk size: 42979.4 KB)
+0045.188 (0) Zip: backup_2025-01-21-2111_HealthSathi_b116592dcab3-plugins.zip.tmp: 7900 files added (on-disk size: 42979.4 KB)
+0045.318 (0) Zip: backup_2025-01-21-2111_HealthSathi_b116592dcab3-plugins.zip.tmp: 8000 files added (on-disk size: 42979.4 KB)
+0045.425 (0) Zip: backup_2025-01-21-2111_HealthSathi_b116592dcab3-plugins.zip.tmp: 8100 files added (on-disk size: 42979.4 KB)
+0045.445 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 1000 files added on this batch (21.6 MB, 8149 files batched, 1001 (8137) added so far); re-opening (prior size: 42979.4 KB)
+0049.736 (0) Creating zip file manifest (backup_2025-01-21-2111_HealthSathi_b116592dcab3-plugins.zip.list-temp.tmp)
+0049.792 (0) Successfully created zip file manifest (size: 719223)
+0058.527 (0) Created plugins zip (0) - 49448.2 KB in 58.4 s (846.1 KB/s) (sha1: 1ffa90e678335b2516f13cdeb6bc2b2faa9f43d8, sha256: c3b05bfe94a74516f1224e29f995188b8ad417f8b45234be165d98f94b16eb40)
+0058.584 (0) Cloud backup selection (1/1): googledrive with instance (1/1) (last)
+0058.585 (0) Beginning dispatch of backup to remote (googledrive) (instance identifier s-5d2c696a4ec198535ce39b613b4e75ce)
+0060.081 (0) Google Drive: quota usage: used=985.5 MB, total=15360 MB, available=14374.5 MB
+0060.083 (0) Google Drive: backup_2025-01-21-2111_HealthSathi_b116592dcab3-plugins.zip: Attempting to upload to Google Drive (into folder id: 146psvXJjRlY1eDkopnyk3YgKiYJtTFoj)
+0060.882 (0) Googledrive chunked upload: 2.1 % uploaded (1048576 - increasing chunk size to 2048 KB - memory usage: 75.3 / 79)
+0061.083 (0) Googledrive chunked upload: 6.2 % uploaded (3145728 - increasing chunk size to 4096 KB - memory usage: 75.4 / 79)
+0061.382 (0) Googledrive chunked upload: 14.5 % uploaded (7340032 - increasing chunk size to 8192 KB - memory usage: 75.4 / 79)
+0061.882 (0) Googledrive chunked upload: 31.1 % uploaded (15728640 - increasing chunk size to 16384 KB - memory usage: 75.4 / 79)
+0062.581 (0) Googledrive chunked upload: 64.2 % uploaded (32505856 - increasing chunk size to 32768 KB - memory usage: 75.4 / 79)
+0064.539 (0) Googledrive chunked upload: 100 % uploaded (32505856)
+0064.543 (0) Google Drive: OK: Archive backup_2025-01-21-2111_HealthSathi_b116592dcab3-plugins.zip uploaded in 4.46 seconds
+0064.544 (0) Recording as successfully uploaded: backup_2025-01-21-2111_HealthSathi_b116592dcab3-plugins.zip
+0064.553 (0) Deleting local file: backup_2025-01-21-2111_HealthSathi_b116592dcab3-plugins.zip: OK
+0064.559 (0) Beginning creation of dump of themes (split every: 400 MB)
+0064.563 (0) PHP event: Could not ask cPanel about disk space (open_basedir) - this is not an error (line 420, wp-content/plugins/updraftplus/class-updraftplus.php)
+0065.492 (0) Total entities for the zip file: 373 directories, 1275 files (0 skipped as non-modified), 40.5 MB
+0065.573 (0) Zip: backup_2025-01-21-2111_HealthSathi_b116592dcab3-themes.zip.tmp: 100 files added (on-disk size: 0 KB)
+0065.656 (0) Zip: backup_2025-01-21-2111_HealthSathi_b116592dcab3-themes.zip.tmp: 200 files added (on-disk size: 0 KB)
+0065.756 (0) Zip: backup_2025-01-21-2111_HealthSathi_b116592dcab3-themes.zip.tmp: 300 files added (on-disk size: 0 KB)
+0065.850 (0) Zip: backup_2025-01-21-2111_HealthSathi_b116592dcab3-themes.zip.tmp: 400 files added (on-disk size: 0 KB)
+0065.938 (0) Zip: backup_2025-01-21-2111_HealthSathi_b116592dcab3-themes.zip.tmp: 500 files added (on-disk size: 0 KB)
+0066.036 (0) Zip: backup_2025-01-21-2111_HealthSathi_b116592dcab3-themes.zip.tmp: 600 files added (on-disk size: 0 KB)
+0066.111 (0) Zip: backup_2025-01-21-2111_HealthSathi_b116592dcab3-themes.zip.tmp: 700 files added (on-disk size: 0 KB)
+0066.174 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 25 MB added on this batch (25.1 MB, 1275 files batched, 790 (790) added so far); re-opening (prior size: 0 KB)
+0070.657 (0) A useful amount of data was added after this amount of zip processing: 6.4 s (normalised: 6.4 s, rate: 4025.1 KB/s)
+0070.681 (0) Zip: backup_2025-01-21-2111_HealthSathi_b116592dcab3-themes.zip.tmp: 800 files added (on-disk size: 10617.7 KB)
+0070.797 (0) Zip: backup_2025-01-21-2111_HealthSathi_b116592dcab3-themes.zip.tmp: 900 files added (on-disk size: 10617.7 KB)
+0070.886 (0) Zip: backup_2025-01-21-2111_HealthSathi_b116592dcab3-themes.zip.tmp: 1000 files added (on-disk size: 10617.7 KB)
+0070.954 (0) Zip: backup_2025-01-21-2111_HealthSathi_b116592dcab3-themes.zip.tmp: 1100 files added (on-disk size: 10617.7 KB)
+0071.048 (0) Zip: backup_2025-01-21-2111_HealthSathi_b116592dcab3-themes.zip.tmp: 1200 files added (on-disk size: 10617.7 KB)
+0075.844 (0) Creating zip file manifest (backup_2025-01-21-2111_HealthSathi_b116592dcab3-themes.zip.list-temp.tmp)
+0075.847 (0) Successfully created zip file manifest (size: 103165)
+0077.906 (0) Created themes zip (0) - 24775.9 KB in 13.3 s (1857.2 KB/s) (sha1: 73f52d11249eeb806e6432aed7b448923d784e7a, sha256: 7426ff10f59e3df384c91eb198f8c57c5e52a18b469205c032488a89f3359c88)
+0077.911 (0) Cloud backup selection (1/1): googledrive with instance (1/1) (last)
+0077.913 (0) Beginning dispatch of backup to remote (googledrive) (instance identifier s-5d2c696a4ec198535ce39b613b4e75ce)
+0078.280 (0) Google Drive: quota usage: used=1033.8 MB, total=15360 MB, available=14326.2 MB
+0078.281 (0) Google Drive: backup_2025-01-21-2111_HealthSathi_b116592dcab3-themes.zip: Attempting to upload to Google Drive (into folder id: 146psvXJjRlY1eDkopnyk3YgKiYJtTFoj)
+0079.183 (0) Googledrive chunked upload: 4.1 % uploaded (1048576 - increasing chunk size to 2048 KB - memory usage: 74.4 / 79)
+0079.681 (0) Googledrive chunked upload: 12.4 % uploaded (3145728 - increasing chunk size to 4096 KB - memory usage: 74.4 / 79)
+0080.282 (0) Googledrive chunked upload: 28.9 % uploaded (7340032 - increasing chunk size to 8192 KB - memory usage: 74.4 / 79)
+0081.088 (0) Googledrive chunked upload: 62 % uploaded (15728640 - increasing chunk size to 16384 KB - memory usage: 74.4 / 79)
+0083.483 (0) Googledrive chunked upload: 100 % uploaded (15728640)
+0083.486 (0) Google Drive: OK: Archive backup_2025-01-21-2111_HealthSathi_b116592dcab3-themes.zip uploaded in 5.2 seconds
+0083.579 (0) Recording as successfully uploaded: backup_2025-01-21-2111_HealthSathi_b116592dcab3-themes.zip
+0083.586 (0) Deleting local file: backup_2025-01-21-2111_HealthSathi_b116592dcab3-themes.zip: OK
+0083.680 (0) Exclusion option setting (uploads): backup*,*backups,backwpup*,wp-clone,snapshots
+0083.681 (0) Looking for candidates to backup in: /home/vol19_1/infinityfree.com/if0_37179288/htdocs/wp-content/uploads
+0083.682 (0) finding files: 2023: adding to list (1)
+0083.683 (0) finding files: 2024: adding to list (2)
+0083.683 (0) finding files: 2025: adding to list (3)
+0083.684 (0) finding files: ai-builder: adding to list (4)
+0083.685 (0) finding files: ast-block-templates-json: adding to list (5)
+0083.778 (0) finding files: astra-docs: adding to list (6)
+0083.779 (0) finding files: astra-sites: adding to list (7)
+0083.780 (0) finding files: burst: adding to list (8)
+0083.781 (0) finding files: complianz: adding to list (9)
+0083.782 (0) finding files: elementor: adding to list (10)
+0083.783 (0) finding files: presto-player-private: adding to list (11)
+0083.783 (0) finding files: really-simple-ssl: adding to list (12)
+0083.784 (0) finding files: rsssl: adding to list (13)
+0083.785 (0) finding files: simply-static: adding to list (14)
+0083.786 (0) finding files: surecart: adding to list (15)
+0083.786 (0) finding files: uag-plugin: adding to list (16)
+0083.787 (0) finding files: wpcf7_uploads: adding to list (17)
+0083.788 (0) finding files: wpforms: adding to list (18)
+0083.878 (0) finding files: .htaccess: adding to list (19)
+0083.879 (0) Beginning creation of dump of uploads (split every: 400 MB)
+0083.886 (0) PHP event: Could not ask cPanel about disk space (open_basedir) - this is not an error (line 420, wp-content/plugins/updraftplus/class-updraftplus.php)
+0085.785 (0) Total entities for the zip file: 42 directories, 284 files (0 skipped as non-modified), 57.4 MB
+0086.278 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 2.0 seconds have passed since the last write (5.3 MB, 52 (52) files added so far); re-opening (prior size: 0 KB)
+0087.688 (0) Zip: backup_2025-01-21-2111_HealthSathi_b116592dcab3-uploads.zip.tmp: 100 files added (on-disk size: 5463.8 KB)
+0087.888 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 25 MB added on this batch (25.9 MB, 284 files batched, 71 (123) added so far); re-opening (prior size: 5463.8 KB)
+0096.515 (0) A useful amount of data was added after this amount of zip processing: 9.2 s (normalised: 8.9 s, rate: 2870.1 KB/s)
+0096.687 (0) Zip: backup_2025-01-21-2111_HealthSathi_b116592dcab3-uploads.zip.tmp: 200 files added (on-disk size: 31948.6 KB)
+0096.805 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 25 MB added on this batch (26.2 MB, 284 files batched, 156 (279) added so far); re-opening (prior size: 31948.6 KB)
+0099.705 (0) A useful amount of data was added after this amount of zip processing: 3.4 s (normalised: 3.3 s, rate: 7800.4 KB/s)
+0099.707 (0) Performance is good - will increase the amount of data we attempt to batch (time=3.43350696564, normalised_time=3.28189066294, max_time=99.7054450512, data points known=1, old_max_bytes=26214400, new_max_bytes=209715200)
+0099.721 (0) Creating zip file manifest (backup_2025-01-21-2111_HealthSathi_b116592dcab3-uploads.zip.list-temp.tmp)
+0099.722 (0) Successfully created zip file manifest (size: 23359)
+0105.708 (0) Created uploads zip (0) - 34337.8 KB in 21.7 s (1580.3 KB/s) (sha1: 7436a27825634770bddf775307061bf7a6cb34e6, sha256: 8aecbd7a379b82c904ea70c9cbe831202bd8d7b37f782ddd1f48eefc9de2f6b9)
+0105.714 (0) Cloud backup selection (1/1): googledrive with instance (1/1) (last)
+0105.715 (0) Beginning dispatch of backup to remote (googledrive) (instance identifier s-5d2c696a4ec198535ce39b613b4e75ce)
+0106.081 (0) Google Drive: quota usage: used=1058 MB, total=15360 MB, available=14302 MB
+0106.082 (0) Google Drive: backup_2025-01-21-2111_HealthSathi_b116592dcab3-uploads.zip: Attempting to upload to Google Drive (into folder id: 146psvXJjRlY1eDkopnyk3YgKiYJtTFoj)
+0106.769 (0) Googledrive chunked upload: 3 % uploaded (1048576 - increasing chunk size to 2048 KB - memory usage: 74.2 / 79)
+0106.950 (0) Googledrive chunked upload: 8.9 % uploaded (3145728 - increasing chunk size to 4096 KB - memory usage: 74.3 / 79)
+0107.185 (0) Googledrive chunked upload: 20.9 % uploaded (7340032 - increasing chunk size to 8192 KB - memory usage: 74.3 / 79)
+0107.563 (0) Googledrive chunked upload: 44.7 % uploaded (15728640 - increasing chunk size to 16384 KB - memory usage: 74.3 / 79)
+0108.258 (0) Googledrive chunked upload: 92.4 % uploaded (32505856 - increasing chunk size to 32768 KB - memory usage: 74.3 / 79)
+0109.877 (0) Googledrive chunked upload: 100 % uploaded (32505856)
+0109.880 (0) Google Drive: OK: Archive backup_2025-01-21-2111_HealthSathi_b116592dcab3-uploads.zip uploaded in 3.8 seconds
+0109.881 (0) Recording as successfully uploaded: backup_2025-01-21-2111_HealthSathi_b116592dcab3-uploads.zip
+0109.887 (0) Deleting local file: backup_2025-01-21-2111_HealthSathi_b116592dcab3-uploads.zip: OK
+0109.890 (0) No backup of mu-plugins: excluded by user's options
+0109.892 (0) Beginning backup of other directories found in the content directory (index: 0)
+0109.893 (0) Exclusion option setting (others): upgrade,cache,updraft,backup*,*backups,mysql.sql,debug.log
+0109.894 (0) Looking for candidates to backup in: /home/vol19_1/infinityfree.com/if0_37179288/htdocs/wp-content
+0109.894 (0) finding files: themes: skipping: this is the themes directory
+0109.895 (0) finding files: uploads: skipping: this is the uploads directory
+0109.895 (0) finding files: upgrade: skipping: excluded by options
+0109.896 (0) finding files: mu-plugins: skipping: this is the mu-plugins directory
+0109.897 (0) finding files: cache: skipping: excluded by options
+0109.897 (0) finding files: ai1wm-backups: skipping: excluded by options (glob)
+0109.898 (0) finding files: updraft: skipping: this is the updraft directory
+0109.899 (0) finding files: plugins: skipping: this is the plugins directory
+0109.899 (0) finding files: upgrade-temp-backup: adding to list (1)
+0109.900 (0) finding files: index.php: adding to list (2)
+0109.901 (0) finding files: advanced-cache.php: adding to list (3)
+0109.901 (0) finding files: object-cache.php: adding to list (4)
+0109.905 (0) PHP event: Could not ask cPanel about disk space (open_basedir) - this is not an error (line 420, wp-content/plugins/updraftplus/class-updraftplus.php)
+0109.910 (0) Total entities for the zip file: 2 directories, 3 files (0 skipped as non-modified), 0 MB
+0110.360 (0) Creating zip file manifest (backup_2025-01-21-2111_HealthSathi_b116592dcab3-others.zip.list-temp.tmp)
+0110.361 (0) Successfully created zip file manifest (size: 95)
+0110.366 (0) Created others zip (0) - 1.9 KB in 0.5 s (4.2 KB/s) (sha1: eecdb7280a89c2aaeb5804b5d655933ed42c7f23, sha256: 190a2bb0da1216ffc4edda56cbd8e13280f7d773a4d605a31b1662b4cf6717c6)
+0110.370 (0) Cloud backup selection (1/1): googledrive with instance (1/1) (last)
+0110.371 (0) Beginning dispatch of backup to remote (googledrive) (instance identifier s-5d2c696a4ec198535ce39b613b4e75ce)
+0110.684 (0) Google Drive: quota usage: used=1091.5 MB, total=15360 MB, available=14268.5 MB
+0110.685 (0) Google Drive: backup_2025-01-21-2111_HealthSathi_b116592dcab3-others.zip: Attempting to upload to Google Drive (into folder id: 146psvXJjRlY1eDkopnyk3YgKiYJtTFoj)
+0113.473 (0) Googledrive chunked upload: 100 % uploaded
+0113.478 (0) Google Drive: OK: Archive backup_2025-01-21-2111_HealthSathi_b116592dcab3-others.zip uploaded in 2.79 seconds
+0113.479 (0) Recording as successfully uploaded: backup_2025-01-21-2111_HealthSathi_b116592dcab3-others.zip
+0113.482 (0) Deleting local file: backup_2025-01-21-2111_HealthSathi_b116592dcab3-others.zip: OK
+0113.490 (0) Saving backup status to database (elements: 8)
+0113.495 (0) Beginning creation of database dump (WordPress DB)
+0113.496 (0) Couldn't get the sql_mode value (N;); will not attempt any adjustment
+0113.517 (0) Table wp4a_options: Total expected rows (via COUNT): 575
+0113.696 (0) Table wp4a_options: Rows added in this batch (next record: 3752): 571 (uncompressed bytes in this segment=3548364) in 0.18 seconds
+0113.703 (0) Table wp4a_options: finishing file(s) (2, 516.7 KB)
+0113.707 (0) Table wp4a_users: Total expected rows (via COUNT): 4
+0113.708 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0113.710 (0) Table wp4a_users: Rows added in this batch (next record: 4): 4 (uncompressed bytes in this segment=1597) in 0.00 seconds
+0113.715 (0) Table wp4a_users: finishing file(s) (2, 0.8 KB)
+0113.720 (0) Table wp4a_usermeta: Total expected rows (via COUNT): 108
+0113.721 (0) Table is relatively small; fetch_rows will thus be: 200 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0113.724 (0) Table wp4a_usermeta: Rows added in this batch (next record: 125): 108 (uncompressed bytes in this segment=12085) in 0.01 seconds
+0113.729 (0) Table wp4a_usermeta: finishing file(s) (2, 4.8 KB)
+0113.737 (0) Table wp4a_commentmeta: Total expected rows (via COUNT): 0
+0113.739 (0) Table wp4a_commentmeta: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=646) in 0.00 seconds
+0113.744 (0) Table wp4a_commentmeta: finishing file(s) (2, 0.4 KB)
+0113.748 (0) Table wp4a_comments: Total expected rows (via COUNT): 1
+0113.749 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0113.751 (0) Table wp4a_comments: Rows added in this batch (next record: 1): 1 (uncompressed bytes in this segment=1899) in 0.00 seconds
+0113.755 (0) Table wp4a_comments: finishing file(s) (2, 0.7 KB)
+0113.761 (0) Table wp4a_links: Total expected rows (via COUNT): 0
+0113.763 (0) Table wp4a_links: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=1039) in 0.00 seconds
+0113.768 (0) Table wp4a_links: finishing file(s) (2, 0.5 KB)
+0113.774 (0) Table wp4a_postmeta: Total expected rows (via COUNT): 819
+0113.774 (0) Table is relatively small; fetch_rows will thus be: 500 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0113.821 (0) Table wp4a_postmeta: Rows added in this batch (next record: 3941): 819 (uncompressed bytes in this segment=1390991) in 0.05 seconds
+0113.827 (0) Table wp4a_postmeta: finishing file(s) (2, 97.6 KB)
+0113.834 (0) Table wp4a_posts: Total expected rows (via COUNT): 227
+0113.835 (0) Table is relatively small; fetch_rows will thus be: 250 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0113.996 (0) Table wp4a_posts: Rows added in this batch (next record: 1414): 227 (uncompressed bytes in this segment=3174104) in 0.17 seconds
+0114.002 (0) Table wp4a_posts: finishing file(s) (2, 337 KB)
+0114.006 (0) Table wp4a_term_relationships: Total expected rows (approximate): 54
+0114.008 (0) Table wp4a_term_relationships: Rows added in this batch (next record: 100000): 54 (uncompressed bytes in this segment=1492) in 0.00 seconds
+0114.013 (0) Table wp4a_term_relationships: finishing file(s) (2, 0.5 KB)
+0114.019 (0) Table wp4a_term_taxonomy: Total expected rows (via COUNT): 22
+0114.019 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0114.022 (0) Table wp4a_term_taxonomy: Rows added in this batch (next record: 22): 22 (uncompressed bytes in this segment=1592) in 0.01 seconds
+0114.028 (0) Table wp4a_term_taxonomy: finishing file(s) (2, 0.6 KB)
+0114.035 (0) Table wp4a_termmeta: Total expected rows (via COUNT): 2
+0114.035 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0114.036 (0) Table wp4a_termmeta: Rows added in this batch (next record: 2): 2 (uncompressed bytes in this segment=759) in 0.01 seconds
+0114.081 (0) Table wp4a_termmeta: finishing file(s) (2, 0.4 KB)
+0114.087 (0) Table wp4a_terms: Total expected rows (via COUNT): 22
+0114.087 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0114.090 (0) Table wp4a_terms: Rows added in this batch (next record: 22): 22 (uncompressed bytes in this segment=1965) in 0.01 seconds
+0114.095 (0) Table wp4a_terms: finishing file(s) (2, 0.8 KB)
+0114.108 (0) Table wp4a_actionscheduler_actions: Total expected rows (via COUNT): 15
+0114.109 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0114.111 (0) Table wp4a_actionscheduler_actions: Rows added in this batch (next record: 59): 15 (uncompressed bytes in this segment=7241) in 0.01 seconds
+0114.117 (0) Table wp4a_actionscheduler_actions: finishing file(s) (2, 1.4 KB)
+0114.122 (0) Table wp4a_actionscheduler_claims: Total expected rows (via COUNT): 0
+0114.124 (0) Table wp4a_actionscheduler_claims: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=618) in 0.00 seconds
+0114.129 (0) Table wp4a_actionscheduler_claims: finishing file(s) (2, 0.4 KB)
+0114.135 (0) Table wp4a_actionscheduler_groups: Total expected rows (via COUNT): 3
+0114.135 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0114.138 (0) Table wp4a_actionscheduler_groups: Rows added in this batch (next record: 3): 3 (uncompressed bytes in this segment=727) in 0.00 seconds
+0114.142 (0) Table wp4a_actionscheduler_groups: finishing file(s) (2, 0.4 KB)
+0114.148 (0) Table wp4a_actionscheduler_logs: Total expected rows (via COUNT): 36
+0114.149 (0) Table is relatively small; fetch_rows will thus be: 50 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0114.178 (0) Table wp4a_actionscheduler_logs: Rows added in this batch (next record: 36): 36 (uncompressed bytes in this segment=3818) in 0.03 seconds
+0114.183 (0) Table wp4a_actionscheduler_logs: finishing file(s) (2, 0.9 KB)
+0114.189 (0) Table wp4a_burst_browser_versions: Total expected rows (via COUNT): 4
+0114.190 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0114.193 (0) Table wp4a_burst_browser_versions: Rows added in this batch (next record: 4): 4 (uncompressed bytes in this segment=653) in 0.01 seconds
+0114.198 (0) Table wp4a_burst_browser_versions: finishing file(s) (2, 0.4 KB)
+0114.204 (0) Table wp4a_burst_browsers: Total expected rows (via COUNT): 2
+0114.204 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0114.206 (0) Table wp4a_burst_browsers: Rows added in this batch (next record: 2): 2 (uncompressed bytes in this segment=558) in 0.00 seconds
+0114.211 (0) Table wp4a_burst_browsers: finishing file(s) (2, 0.4 KB)
+0114.217 (0) Table wp4a_burst_devices: Total expected rows (via COUNT): 4
+0114.218 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0114.219 (0) Table wp4a_burst_devices: Rows added in this batch (next record: 4): 4 (uncompressed bytes in this segment=585) in 0.00 seconds
+0114.224 (0) Table wp4a_burst_devices: finishing file(s) (2, 0.4 KB)
+0114.231 (0) Table wp4a_burst_platforms: Total expected rows (via COUNT): 2
+0114.231 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0114.233 (0) Table wp4a_burst_platforms: Rows added in this batch (next record: 2): 2 (uncompressed bytes in this segment=568) in 0.00 seconds
+0114.237 (0) Table wp4a_burst_platforms: finishing file(s) (2, 0.4 KB)
+0114.244 (0) Table wp4a_cmplz_cookiebanners: Total expected rows (via COUNT): 1
+0114.245 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0114.247 (0) Table wp4a_cmplz_cookiebanners: Rows added in this batch (next record: 1): 1 (uncompressed bytes in this segment=6968) in 0.01 seconds
+0114.278 (0) Table wp4a_cmplz_cookiebanners: finishing file(s) (2, 2.1 KB)
+0114.287 (0) Table wp4a_cmplz_cookies: Total expected rows (via COUNT): 33
+0114.288 (0) Table is relatively small; fetch_rows will thus be: 50 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0114.293 (0) Table wp4a_cmplz_cookies: Rows added in this batch (next record: 34): 33 (uncompressed bytes in this segment=6095) in 0.01 seconds
+0114.298 (0) Table wp4a_cmplz_cookies: finishing file(s) (2, 1.4 KB)
+0114.306 (0) Table wp4a_cmplz_dnsmpd: Total expected rows (via COUNT): 0
+0114.309 (0) Table wp4a_cmplz_dnsmpd: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=826) in 0.01 seconds
+0114.314 (0) Table wp4a_cmplz_dnsmpd: finishing file(s) (2, 0.4 KB)
+0114.321 (0) Table wp4a_cmplz_services: Total expected rows (via COUNT): 3
+0114.322 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0114.326 (0) Table wp4a_cmplz_services: Rows added in this batch (next record: 3): 3 (uncompressed bytes in this segment=1275) in 0.01 seconds
+0114.330 (0) Table wp4a_cmplz_services: finishing file(s) (2, 0.6 KB)
+0114.336 (0) Table wp4a_e_events: Total expected rows (via COUNT): 0
+0114.339 (0) Table wp4a_e_events: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=523) in 0.00 seconds
+0114.344 (0) Table wp4a_e_events: finishing file(s) (2, 0.4 KB)
+0114.354 (0) Table wp4a_presto_player_audio_presets: Total expected rows (via COUNT): 4
+0114.355 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0114.381 (0) Table wp4a_presto_player_audio_presets: Rows added in this batch (next record: 4): 4 (uncompressed bytes in this segment=2963) in 0.03 seconds
+0114.387 (0) Table wp4a_presto_player_audio_presets: finishing file(s) (2, 0.8 KB)
+0114.394 (0) Table wp4a_presto_player_email_collection: Total expected rows (via COUNT): 0
+0114.397 (0) Table wp4a_presto_player_email_collection: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=1304) in 0.00 seconds
+0114.401 (0) Table wp4a_presto_player_email_collection: finishing file(s) (2, 0.5 KB)
+0114.411 (0) Table wp4a_presto_player_presets: Total expected rows (via COUNT): 5
+0114.412 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0114.415 (0) Table wp4a_presto_player_presets: Rows added in this batch (next record: 5): 5 (uncompressed bytes in this segment=3827) in 0.01 seconds
+0114.421 (0) Table wp4a_presto_player_presets: finishing file(s) (2, 1.1 KB)
+0114.427 (0) Table wp4a_presto_player_videos: Total expected rows (via COUNT): 0
+0114.429 (0) Table wp4a_presto_player_videos: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=1087) in 0.00 seconds
+0114.434 (0) Table wp4a_presto_player_videos: finishing file(s) (2, 0.5 KB)
+0114.440 (0) Table wp4a_presto_player_visits: Total expected rows (via COUNT): 0
+0114.441 (0) Table wp4a_presto_player_visits: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=994) in 0.00 seconds
+0114.445 (0) Table wp4a_presto_player_visits: finishing file(s) (2, 0.5 KB)
+0114.451 (0) Table wp4a_presto_player_webhooks: Total expected rows (via COUNT): 0
+0114.479 (0) Table wp4a_presto_player_webhooks: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=932) in 0.03 seconds
+0114.485 (0) Table wp4a_presto_player_webhooks: finishing file(s) (2, 0.4 KB)
+0114.494 (0) Table wp4a_surecart_incoming_webhooks: Total expected rows (via COUNT): 0
+0114.496 (0) Table wp4a_surecart_incoming_webhooks: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=982) in 0.01 seconds
+0114.502 (0) Table wp4a_surecart_incoming_webhooks: finishing file(s) (2, 0.4 KB)
+0114.509 (0) Table wp4a_surecart_integrations: Total expected rows (via COUNT): 0
+0114.510 (0) Table wp4a_surecart_integrations: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=1029) in 0.00 seconds
+0114.515 (0) Table wp4a_surecart_integrations: finishing file(s) (2, 0.4 KB)
+0114.524 (0) Table wp4a_wpforms_logs: Total expected rows (via COUNT): 0
+0114.525 (0) Table wp4a_wpforms_logs: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=671) in 0.01 seconds
+0114.531 (0) Table wp4a_wpforms_logs: finishing file(s) (2, 0.4 KB)
+0114.539 (0) Table wp4a_wpforms_payment_meta: Total expected rows (via COUNT): 0
+0114.541 (0) Table wp4a_wpforms_payment_meta: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=702) in 0.01 seconds
+0114.547 (0) Table wp4a_wpforms_payment_meta: finishing file(s) (2, 0.4 KB)
+0114.553 (0) Table wp4a_wpforms_payments: Total expected rows (via COUNT): 0
+0114.580 (0) Table wp4a_wpforms_payments: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=1662) in 0.03 seconds
+0114.584 (0) Table wp4a_wpforms_payments: finishing file(s) (2, 0.6 KB)
+0114.594 (0) Table wp4a_wpforms_tasks_meta: Total expected rows (via COUNT): 6
+0114.595 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0114.598 (0) Table wp4a_wpforms_tasks_meta: Rows added in this batch (next record: 6): 6 (uncompressed bytes in this segment=1067) in 0.01 seconds
+0114.603 (0) Table wp4a_wpforms_tasks_meta: finishing file(s) (2, 0.5 KB)
+0114.604 (0) PHP event: code E_WARNING: filemtime(): stat failed for /home/vol19_1/infinityfree.com/if0_37179288/htdocs/wp-content/updraft/backup_2025-01-21-2111_HealthSathi_b116592dcab3-db.gz (line 1923, wp-content/plugins/updraftplus/backup.php)
+0114.606 (0) backup_2025-01-21-2111_HealthSathi_b116592dcab3-db-table-wp4a_options.table.tmpr3753.gz (1/37/fopen): adding to final database dump
+0114.611 (0) backup_2025-01-21-2111_HealthSathi_b116592dcab3-db-table-wp4a_options.table.gz (2/37/fopen): adding to final database dump
+0114.612 (0) backup_2025-01-21-2111_HealthSathi_b116592dcab3-db-table-wp4a_users.table.tmpr5.gz (3/37/fopen): adding to final database dump
+0114.613 (0) backup_2025-01-21-2111_HealthSathi_b116592dcab3-db-table-wp4a_users.table.gz (4/37/fopen): adding to final database dump
+0114.614 (0) backup_2025-01-21-2111_HealthSathi_b116592dcab3-db-table-wp4a_usermeta.table.tmpr126.gz (5/37/fopen): adding to final database dump
+0114.615 (0) backup_2025-01-21-2111_HealthSathi_b116592dcab3-db-table-wp4a_usermeta.table.gz (6/37/fopen): adding to final database dump
+0114.615 (0) backup_2025-01-21-2111_HealthSathi_b116592dcab3-db-table-wp4a_commentmeta.table.tmpr0.gz (7/37/fopen): adding to final database dump
+0114.616 (0) backup_2025-01-21-2111_HealthSathi_b116592dcab3-db-table-wp4a_commentmeta.table.gz (8/37/fopen): adding to final database dump
+0114.617 (0) backup_2025-01-21-2111_HealthSathi_b116592dcab3-db-table-wp4a_comments.table.tmpr2.gz (9/37/fopen): adding to final database dump
+0114.618 (0) backup_2025-01-21-2111_HealthSathi_b116592dcab3-db-table-wp4a_comments.table.gz (10/37/fopen): adding to final database dump
+0114.619 (0) backup_2025-01-21-2111_HealthSathi_b116592dcab3-db-table-wp4a_links.table.tmpr0.gz (11/37/fopen): adding to final database dump
+0114.620 (0) backup_2025-01-21-2111_HealthSathi_b116592dcab3-db-table-wp4a_links.table.gz (12/37/fopen): adding to final database dump
+0114.620 (0) backup_2025-01-21-2111_HealthSathi_b116592dcab3-db-table-wp4a_postmeta.table.tmpr3942.gz (13/37/fopen): adding to final database dump
+0114.622 (0) backup_2025-01-21-2111_HealthSathi_b116592dcab3-db-table-wp4a_postmeta.table.gz (14/37/fopen): adding to final database dump
+0114.623 (0) backup_2025-01-21-2111_HealthSathi_b116592dcab3-db-table-wp4a_posts.table.tmpr1415.gz (15/37/fopen): adding to final database dump
+0114.626 (0) backup_2025-01-21-2111_HealthSathi_b116592dcab3-db-table-wp4a_posts.table.gz (16/37/fopen): adding to final database dump
+0114.627 (0) backup_2025-01-21-2111_HealthSathi_b116592dcab3-db-table-wp4a_term_relationships.table.tmpr100001.gz (17/37/fopen): adding to final database dump
+0114.628 (0) backup_2025-01-21-2111_HealthSathi_b116592dcab3-db-table-wp4a_term_relationships.table.gz (18/37/fopen): adding to final database dump
+0114.628 (0) backup_2025-01-21-2111_HealthSathi_b116592dcab3-db-table-wp4a_term_taxonomy.table.tmpr23.gz (19/37/fopen): adding to final database dump
+0114.629 (0) backup_2025-01-21-2111_HealthSathi_b116592dcab3-db-table-wp4a_term_taxonomy.table.gz (20/37/fopen): adding to final database dump
+0114.630 (0) backup_2025-01-21-2111_HealthSathi_b116592dcab3-db-table-wp4a_termmeta.table.tmpr3.gz (21/37/fopen): adding to final database dump
+0114.631 (0) backup_2025-01-21-2111_HealthSathi_b116592dcab3-db-table-wp4a_termmeta.table.gz (22/37/fopen): adding to final database dump
+0114.631 (0) backup_2025-01-21-2111_HealthSathi_b116592dcab3-db-table-wp4a_terms.table.tmpr23.gz (23/37/fopen): adding to final database dump
+0114.632 (0) backup_2025-01-21-2111_HealthSathi_b116592dcab3-db-table-wp4a_terms.table.gz (24/37/fopen): adding to final database dump
+0114.633 (0) backup_2025-01-21-2111_HealthSathi_b116592dcab3-db-table-wp4a_actionscheduler_actions.table.tmpr60.gz (25/37/fopen): adding to final database dump
+0114.634 (0) backup_2025-01-21-2111_HealthSathi_b116592dcab3-db-table-wp4a_actionscheduler_actions.table.gz (26/37/fopen): adding to final database dump
+0114.634 (0) backup_2025-01-21-2111_HealthSathi_b116592dcab3-db-table-wp4a_actionscheduler_claims.table.tmpr0.gz (27/37/fopen): adding to final database dump
+0114.635 (0) backup_2025-01-21-2111_HealthSathi_b116592dcab3-db-table-wp4a_actionscheduler_claims.table.gz (28/37/fopen): adding to final database dump
+0114.636 (0) backup_2025-01-21-2111_HealthSathi_b116592dcab3-db-table-wp4a_actionscheduler_groups.table.tmpr4.gz (29/37/fopen): adding to final database dump
+0114.637 (0) backup_2025-01-21-2111_HealthSathi_b116592dcab3-db-table-wp4a_actionscheduler_groups.table.gz (30/37/fopen): adding to final database dump
+0114.637 (0) backup_2025-01-21-2111_HealthSathi_b116592dcab3-db-table-wp4a_actionscheduler_logs.table.tmpr37.gz (31/37/fopen): adding to final database dump
+0114.638 (0) backup_2025-01-21-2111_HealthSathi_b116592dcab3-db-table-wp4a_actionscheduler_logs.table.gz (32/37/fopen): adding to final database dump
+0114.639 (0) backup_2025-01-21-2111_HealthSathi_b116592dcab3-db-table-wp4a_burst_browser_versions.table.tmpr5.gz (33/37/fopen): adding to final database dump
+0114.640 (0) backup_2025-01-21-2111_HealthSathi_b116592dcab3-db-table-wp4a_burst_browser_versions.table.gz (34/37/fopen): adding to final database dump
+0114.640 (0) backup_2025-01-21-2111_HealthSathi_b116592dcab3-db-table-wp4a_burst_browsers.table.tmpr3.gz (35/37/fopen): adding to final database dump
+0114.641 (0) backup_2025-01-21-2111_HealthSathi_b116592dcab3-db-table-wp4a_burst_browsers.table.gz (36/37/fopen): adding to final database dump
+0114.642 (0) backup_2025-01-21-2111_HealthSathi_b116592dcab3-db-table-wp4a_burst_devices.table.tmpr5.gz (37/37/fopen): adding to final database dump
+0114.643 (0) backup_2025-01-21-2111_HealthSathi_b116592dcab3-db-table-wp4a_burst_devices.table.gz (38/37/fopen): adding to final database dump
+0114.643 (0) backup_2025-01-21-2111_HealthSathi_b116592dcab3-db-table-wp4a_burst_platforms.table.tmpr3.gz (39/37/fopen): adding to final database dump
+0114.678 (0) backup_2025-01-21-2111_HealthSathi_b116592dcab3-db-table-wp4a_burst_platforms.table.gz (40/37/fopen): adding to final database dump
+0114.680 (0) backup_2025-01-21-2111_HealthSathi_b116592dcab3-db-table-wp4a_cmplz_cookiebanners.table.tmpr2.gz (41/37/fopen): adding to final database dump
+0114.680 (0) backup_2025-01-21-2111_HealthSathi_b116592dcab3-db-table-wp4a_cmplz_cookiebanners.table.gz (42/37/fopen): adding to final database dump
+0114.681 (0) backup_2025-01-21-2111_HealthSathi_b116592dcab3-db-table-wp4a_cmplz_cookies.table.tmpr35.gz (43/37/fopen): adding to final database dump
+0114.682 (0) backup_2025-01-21-2111_HealthSathi_b116592dcab3-db-table-wp4a_cmplz_cookies.table.gz (44/37/fopen): adding to final database dump
+0114.683 (0) backup_2025-01-21-2111_HealthSathi_b116592dcab3-db-table-wp4a_cmplz_dnsmpd.table.tmpr0.gz (45/37/fopen): adding to final database dump
+0114.684 (0) backup_2025-01-21-2111_HealthSathi_b116592dcab3-db-table-wp4a_cmplz_dnsmpd.table.gz (46/37/fopen): adding to final database dump
+0114.685 (0) backup_2025-01-21-2111_HealthSathi_b116592dcab3-db-table-wp4a_cmplz_services.table.tmpr4.gz (47/37/fopen): adding to final database dump
+0114.685 (0) backup_2025-01-21-2111_HealthSathi_b116592dcab3-db-table-wp4a_cmplz_services.table.gz (48/37/fopen): adding to final database dump
+0114.686 (0) backup_2025-01-21-2111_HealthSathi_b116592dcab3-db-table-wp4a_e_events.table.tmpr0.gz (49/37/fopen): adding to final database dump
+0114.687 (0) backup_2025-01-21-2111_HealthSathi_b116592dcab3-db-table-wp4a_e_events.table.gz (50/37/fopen): adding to final database dump
+0114.688 (0) backup_2025-01-21-2111_HealthSathi_b116592dcab3-db-table-wp4a_presto_player_audio_presets.table.tmpr5.gz (51/37/fopen): adding to final database dump
+0114.688 (0) backup_2025-01-21-2111_HealthSathi_b116592dcab3-db-table-wp4a_presto_player_audio_presets.table.gz (52/37/fopen): adding to final database dump
+0114.689 (0) backup_2025-01-21-2111_HealthSathi_b116592dcab3-db-table-wp4a_presto_player_email_collection.table.tmpr0.gz (53/37/fopen): adding to final database dump
+0114.690 (0) backup_2025-01-21-2111_HealthSathi_b116592dcab3-db-table-wp4a_presto_player_email_collection.table.gz (54/37/fopen): adding to final database dump
+0114.691 (0) backup_2025-01-21-2111_HealthSathi_b116592dcab3-db-table-wp4a_presto_player_presets.table.tmpr6.gz (55/37/fopen): adding to final database dump
+0114.691 (0) backup_2025-01-21-2111_HealthSathi_b116592dcab3-db-table-wp4a_presto_player_presets.table.gz (56/37/fopen): adding to final database dump
+0114.692 (0) backup_2025-01-21-2111_HealthSathi_b116592dcab3-db-table-wp4a_presto_player_videos.table.tmpr0.gz (57/37/fopen): adding to final database dump
+0114.693 (0) backup_2025-01-21-2111_HealthSathi_b116592dcab3-db-table-wp4a_presto_player_videos.table.gz (58/37/fopen): adding to final database dump
+0114.694 (0) backup_2025-01-21-2111_HealthSathi_b116592dcab3-db-table-wp4a_presto_player_visits.table.tmpr0.gz (59/37/fopen): adding to final database dump
+0114.694 (0) backup_2025-01-21-2111_HealthSathi_b116592dcab3-db-table-wp4a_presto_player_visits.table.gz (60/37/fopen): adding to final database dump
+0114.695 (0) backup_2025-01-21-2111_HealthSathi_b116592dcab3-db-table-wp4a_presto_player_webhooks.table.tmpr0.gz (61/37/fopen): adding to final database dump
+0114.696 (0) backup_2025-01-21-2111_HealthSathi_b116592dcab3-db-table-wp4a_presto_player_webhooks.table.gz (62/37/fopen): adding to final database dump
+0114.696 (0) backup_2025-01-21-2111_HealthSathi_b116592dcab3-db-table-wp4a_surecart_incoming_webhooks.table.tmpr0.gz (63/37/fopen): adding to final database dump
+0114.697 (0) backup_2025-01-21-2111_HealthSathi_b116592dcab3-db-table-wp4a_surecart_incoming_webhooks.table.gz (64/37/fopen): adding to final database dump
+0114.698 (0) backup_2025-01-21-2111_HealthSathi_b116592dcab3-db-table-wp4a_surecart_integrations.table.tmpr0.gz (65/37/fopen): adding to final database dump
+0114.699 (0) backup_2025-01-21-2111_HealthSathi_b116592dcab3-db-table-wp4a_surecart_integrations.table.gz (66/37/fopen): adding to final database dump
+0114.700 (0) backup_2025-01-21-2111_HealthSathi_b116592dcab3-db-table-wp4a_wpforms_logs.table.tmpr0.gz (67/37/fopen): adding to final database dump
+0114.700 (0) backup_2025-01-21-2111_HealthSathi_b116592dcab3-db-table-wp4a_wpforms_logs.table.gz (68/37/fopen): adding to final database dump
+0114.701 (0) backup_2025-01-21-2111_HealthSathi_b116592dcab3-db-table-wp4a_wpforms_payment_meta.table.tmpr0.gz (69/37/fopen): adding to final database dump
+0114.702 (0) backup_2025-01-21-2111_HealthSathi_b116592dcab3-db-table-wp4a_wpforms_payment_meta.table.gz (70/37/fopen): adding to final database dump
+0114.703 (0) backup_2025-01-21-2111_HealthSathi_b116592dcab3-db-table-wp4a_wpforms_payments.table.tmpr0.gz (71/37/fopen): adding to final database dump
+0114.703 (0) backup_2025-01-21-2111_HealthSathi_b116592dcab3-db-table-wp4a_wpforms_payments.table.gz (72/37/fopen): adding to final database dump
+0114.704 (0) backup_2025-01-21-2111_HealthSathi_b116592dcab3-db-table-wp4a_wpforms_tasks_meta.table.tmpr7.gz (73/37/fopen): adding to final database dump
+0114.705 (0) backup_2025-01-21-2111_HealthSathi_b116592dcab3-db-table-wp4a_wpforms_tasks_meta.table.gz (74/37/fopen): adding to final database dump
+0114.710 (0) backup_2025-01-21-2111_HealthSathi_b116592dcab3-db.gz: finished writing out complete database file (976.7 KB)
+0114.736 (0) Total database tables backed up: 37 (backup_2025-01-21-2111_HealthSathi_b116592dcab3-db.gz, size: 1000289, sha1: e1b6a8c8e5d23b5470d8f633bc9ef32286a75f80, sha256: 9501b7bbdb0a115fbd0511baa1af9c90d08d34108fda56f64a946fdc37f24758)
+0114.783 (0) backup_2025-01-21-2111_HealthSathi_b116592dcab3-plugins.zip: plugins: This file has already been successfully uploaded
+0114.784 (0) backup_2025-01-21-2111_HealthSathi_b116592dcab3-themes.zip: themes: This file has already been successfully uploaded
+0114.785 (0) backup_2025-01-21-2111_HealthSathi_b116592dcab3-uploads.zip: uploads: This file has already been successfully uploaded
+0114.785 (0) backup_2025-01-21-2111_HealthSathi_b116592dcab3-others.zip: others: This file has already been successfully uploaded
+0114.786 (0) backup_2025-01-21-2111_HealthSathi_b116592dcab3-db.gz: db: This file has not yet been successfully uploaded: will queue
+0114.786 (0) Saving backup history. Total backup size: 107 MB
+0114.789 (0) Requesting upload of the files that have not yet been successfully uploaded (1)
+0114.792 (0) Cloud backup selection (1/1): googledrive with instance (1/1) (last)
+0114.793 (0) Beginning dispatch of backup to remote (googledrive) (instance identifier s-5d2c696a4ec198535ce39b613b4e75ce)
+0115.163 (0) Google Drive: quota usage: used=1091.5 MB, total=15360 MB, available=14268.5 MB
+0115.164 (0) Google Drive: backup_2025-01-21-2111_HealthSathi_b116592dcab3-db.gz: Attempting to upload to Google Drive (into folder id: 146psvXJjRlY1eDkopnyk3YgKiYJtTFoj)
+0117.223 (0) Googledrive chunked upload: 100 % uploaded
+0117.227 (0) Google Drive: OK: Archive backup_2025-01-21-2111_HealthSathi_b116592dcab3-db.gz uploaded in 2.06 seconds
+0117.228 (0) Recording as successfully uploaded: backup_2025-01-21-2111_HealthSathi_b116592dcab3-db.gz
+0117.231 (0) Deleting local file: backup_2025-01-21-2111_HealthSathi_b116592dcab3-db.gz: OK
+0117.234 (0) Retain: beginning examination of existing backup sets; user setting: retain_files=4, retain_db=4
+0117.236 (0) Number of backup sets in history: 4; groups (db): 1
+0117.237 (0) Examining (for databases) backup set with group_id=0, nonce=b116592dcab3, datestamp=1737511907 (Jan 22 2025 02:11:47)
+0117.238 (0) This backup set is the backup set just made, so will not be deleted.
+0117.238 (0) Examining (for databases) backup set with group_id=0, nonce=f9ce2aaff3e3, datestamp=1736566261 (Jan 11 2025 03:31:01)
+0117.238 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0117.238 (0) Examining (for databases) backup set with group_id=0, nonce=353a9db2f705, datestamp=1736300590 (Jan 08 2025 01:43:10)
+0117.238 (0) This backup set (1736300590) was an 'Always Keep' backup, and we have not yet reached any retain limits, so it should be counted in the count of how many have been retained for purposes of the 'how many to retain' count. It will not be pruned. Skipping.
+0117.238 (0) Examining (for databases) backup set with group_id=0, nonce=247fba0eb523, datestamp=1736300400 (Jan 08 2025 01:40:00)
+0117.239 (0) Number of backup sets in history: 4; groups (files): 1
+0117.239 (0) Examining (for files) backup set with nonce=b116592dcab3, datestamp=1737511907 (Jan 22 2025 02:11:47)
+0117.239 (0) This backup set is the backup set just made, so will not be deleted.
+0117.240 (0) This backup set is the backup set just made, so will not be deleted.
+0117.240 (0) This backup set is the backup set just made, so will not be deleted.
+0117.240 (0) This backup set is the backup set just made, so will not be deleted.
+0117.240 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0117.241 (0) Examining (for files) backup set with nonce=f9ce2aaff3e3, datestamp=1736566261 (Jan 11 2025 03:31:01)
+0117.241 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0117.241 (0) Examining (for files) backup set with nonce=353a9db2f705, datestamp=1736300590 (Jan 08 2025 01:43:10)
+0117.241 (0) This backup set (1736300590) was an 'Always Keep' backup, and we have not yet reached any retain limits, so it should be counted in the count of how many have been retained for purposes of the 'how many to retain' count. It will not be pruned. Skipping.
+0117.241 (0) This backup set (1736300590) was an 'Always Keep' backup, and we have not yet reached any retain limits, so it should be counted in the count of how many have been retained for purposes of the 'how many to retain' count. It will not be pruned. Skipping.
+0117.241 (0) This backup set (1736300590) was an 'Always Keep' backup, and we have not yet reached any retain limits, so it should be counted in the count of how many have been retained for purposes of the 'how many to retain' count. It will not be pruned. Skipping.
+0117.241 (0) This backup set (1736300590) was an 'Always Keep' backup, and we have not yet reached any retain limits, so it should be counted in the count of how many have been retained for purposes of the 'how many to retain' count. It will not be pruned. Skipping.
+0117.241 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0117.241 (0) Examining (for files) backup set with nonce=247fba0eb523, datestamp=1736300400 (Jan 08 2025 01:40:00)
+0117.241 (0) This backup set remains non-empty (f=1/d=0); will retain in history
+0117.242 (0) Retain: saving new backup history (sets now: 4) and finishing retain operation
+0117.245 (0) Resume backup (b116592dcab3, 0): finish run
+0117.247 (0) Decremented the semaphore (fd) by 1
+0117.248 (0) Semaphore (fd) unlocked
+0117.249 (0) There were no errors in the uploads, so the 'resume' event (1) is being unscheduled
+0117.254 (0) Deleting zip manifest (backup_2025-01-21-2111_HealthSathi_b116592dcab3-plugins.zip.list.tmp)
+0117.255 (0) Deleting zip manifest (backup_2025-01-21-2111_HealthSathi_b116592dcab3-themes.zip.list.tmp)
+0117.256 (0) Deleting zip manifest (backup_2025-01-21-2111_HealthSathi_b116592dcab3-uploads.zip.list.tmp)
+0117.257 (0) Deleting zip manifest (backup_2025-01-21-2111_HealthSathi_b116592dcab3-others.zip.list.tmp)
+0117.258 (0) Fetching RSS news feed
+0117.615 (0) Fetched RSS news feed; result is a: SimplePie\SimplePie
+0117.679 (0) Sending email ('Files and database (Full backup)') report (attachments: 0, size: 0 KB) to: jayti...
+0117.697 (0) An error occurred when sending a backup report email and/or backup file(s) via email (wp_mail_failed): Could not instantiate mail function.
+0117.699 (0) The backup succeeded and is now complete

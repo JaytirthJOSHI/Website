@@ -1,0 +1,212 @@
+0000.002 () Opened log file at time: Wed, 08 Jan 2025 22:38:09 +0000 on https://healthsathi.tech
+0000.003 () UpdraftPlus WordPress backup plugin (https://updraftplus.com): 1.24.12 WP: 6.7.1 PHP: 8.2.25 (apache2handler, Linux webserver.cluster.com 6.6.7-362.18.1.el9_5.x86_64 #1 SMP PREEMPT_DYNAMIC Wed Jan 8 22:38:09 UTC 2025 x86_64 x86_64 x86_64 GNU/Linux) MySQL: 10.6.19-MariaDB (max packet size=8388608) WPLANG: en_US Server: Apache safe_mode: 0 max_execution_time: 60 memory_limit: 512M (used: 70.3M | 73M) multisite: N openssl: OpenSSL 1.1.1w  11 Sep 2023 mcrypt: N LANG: C ZipArchive::addFile: Y
+0000.003 () Free space on disk containing Updraft's temporary directory: 6687069.8 MB
+0000.080 () Restore setup, now closing connection and starting restore over AJAX.
+0000.002 () Opened log file at time: Wed, 08 Jan 2025 22:38:12 +0000 on https://healthsathi.tech
+0000.002 () UpdraftPlus WordPress backup plugin (https://updraftplus.com): 1.24.12 WP: 6.7.1 PHP: 8.2.25 (apache2handler, Linux webserver.cluster.com 6.8.7-362.18.1.el9_5.x86_64 #1 SMP PREEMPT_DYNAMIC Wed Jan 8 22:38:12 UTC 2025 x86_64 x86_64 x86_64 GNU/Linux) MySQL: 10.6.19-MariaDB (max packet size=8388608) WPLANG: en_US Server: Apache safe_mode: 0 max_execution_time: 60 memory_limit: 512M (used: 67.1M | 71M) multisite: N openssl: OpenSSL 1.1.1w  11 Sep 2023 mcrypt: N LANG: C ZipArchive::addFile: Y
+0000.002 () Free space on disk containing Updraft's temporary directory: 6687095.3 MB
+0000.026 () Ensuring WP_Filesystem is setup for a restore
+0000.027 () WP_Filesystem is setup and ready for a restore
+0000.031 () Restore job started. Entities to restore: plugins, themes, uploads, others, db. Restore options: {"include_unspecified_tables":false,"tables_to_restore":["wp4a_options","wp4a_users","wp4a_usermeta","wp4a_commentmeta","wp4a_comments","wp4a_links","wp4a_postmeta","wp4a_posts","wp4a_term_relationships","wp4a_term_taxonomy","wp4a_termmeta","wp4a_terms","wp4a_actionscheduler_actions","wp4a_actionscheduler_claims","wp4a_actionscheduler_groups","wp4a_actionscheduler_logs","wp4a_burst_browser_versions","wp4a_burst_browsers","wp4a_burst_devices","wp4a_burst_platforms","wp4a_cmplz_cookiebanners","wp4a_cmplz_cookies","wp4a_cmplz_dnsmpd","wp4a_cmplz_services","wp4a_e_events","wp4a_presto_player_audio_presets","wp4a_presto_player_email_collection","wp4a_presto_player_presets","wp4a_presto_player_videos","wp4a_presto_player_visits","wp4a_presto_player_webhooks","wp4a_surecart_incoming_webhooks","wp4a_surecart_integrations","wp4a_wpforms_logs","wp4a_wpforms_payment_meta","wp4a_wpforms_payments","wp4a_wpforms_tasks_meta"],"tables_to_skip":[],"updraft_encryptionphrase":"","updraft_restorer_wpcore_includewpconfig":false,"updraft_incremental_restore_point":-1}
+0000.033 () PHP event: code E_WARNING: mkdir(): File exists (line 558, wp-admin/includes/class-wp-filesystem-direct.php)
+0000.042 () Will not delete any archives after unpacking them, because there was no cloud storage for this backup
+0000.043 () Entity: db
+0000.043 () restore_backup(backup_file=backup_2025-01-07-2043_HealthSathi_353a9db2f705-db.gz, type=db, info=a:0:{}, last_one=)
+0000.043 () Unpacking backup... (backup_2025-01-07-2043_HealthSathi_353a9db2f705-db.gz, 0.8 Mb)
+0000.044 () PHP event: code E_WARNING: mkdir(): File exists (line 558, wp-admin/includes/class-wp-filesystem-direct.php)
+0000.046 () Database successfully unpacked
+0000.046 () Restoring the database (on a large site this can take a long time - if it times out (which can happen if your web hosting company has configured your hosting to limit resources) then you should use a different method, such as phpMyAdmin)...
+0000.047 () Using direct MySQL access; value of use_mysqli is: 1
+0000.047 () SQL compatibility mode is: NO_AUTO_VALUE_ON_ZERO,
+0000.087 () Tried to raise max_allowed_packet from 8 MB to 32 MB, but failed (Access denied; you need (at least one of) the SUPER privilege(s) for this operation, b:0;)
+0000.088 () Max packet size: 8 MB
+0000.088 () Entering maintenance mode
+0000.088 () Enabling Maintenance mode&#8230;
+0000.118 () Backup of: https://healthsathi.tech
+0000.119 () Content URL: https://healthsathi.tech/wp-content
+0000.120 () Uploads URL: https://healthsathi.tech/wp-content/uploads
+0000.120 () Old table prefix: wp4a_
+0000.120 () UpdraftPlus plugin slug: updraftplus/updraftplus.php
+0000.121 () Site information: multisite=0
+0000.121 () Site information: sql_mode=
+0000.123 () Skipped execution of SQL statement (unwanted or internally handled type=18): /*!40101 SET @OLD_SQL_MODE=@@SQL_MODE, SQL_MODE='NO_AUTO_VALUE_ON_ZERO' */;
+0000.123 () New table prefix: at_
+0000.132 () Processing table (MyISAM): wp4a_options - will restore as: at_options
+0000.347 () Atomic restore: dropping original table (wp4a_options)
+0000.356 () Atomic restore: renaming new table (at_options) to final table name (wp4a_options)
+0000.363 () Restoring prior UD configuration (table: wp4a_options; keys: 4)
+0000.387 () Processing table (MyISAM): wp4a_users - will restore as: at_users
+0000.408 () Atomic restore: dropping original table (wp4a_users)
+0000.413 () Atomic restore: renaming new table (at_users) to final table name (wp4a_users)
+0000.418 () Processing table (MyISAM): wp4a_usermeta - will restore as: at_usermeta
+0000.441 () Atomic restore: dropping original table (wp4a_usermeta)
+0000.447 () Atomic restore: renaming new table (at_usermeta) to final table name (wp4a_usermeta)
+0000.452 () Processing table (MyISAM): wp4a_commentmeta - will restore as: at_commentmeta
+0000.469 () Atomic restore: dropping original table (wp4a_commentmeta)
+0000.479 () Atomic restore: renaming new table (at_commentmeta) to final table name (wp4a_commentmeta)
+0000.488 () Processing table (MyISAM): wp4a_comments - will restore as: at_comments
+0000.505 () Atomic restore: dropping original table (wp4a_comments)
+0000.511 () Atomic restore: renaming new table (at_comments) to final table name (wp4a_comments)
+0000.516 () Processing table (MyISAM): wp4a_links - will restore as: at_links
+0000.536 () Atomic restore: dropping original table (wp4a_links)
+0000.542 () Atomic restore: renaming new table (at_links) to final table name (wp4a_links)
+0000.549 () Processing table (MyISAM): wp4a_postmeta - will restore as: at_postmeta
+0000.634 () Atomic restore: dropping original table (wp4a_postmeta)
+0000.644 () Atomic restore: renaming new table (at_postmeta) to final table name (wp4a_postmeta)
+0000.650 () Processing table (MyISAM): wp4a_posts - will restore as: at_posts
+0000.796 () Atomic restore: dropping original table (wp4a_posts)
+0000.803 () Atomic restore: renaming new table (at_posts) to final table name (wp4a_posts)
+0000.809 () Processing table (MyISAM): wp4a_term_relationships - will restore as: at_term_relationships
+0000.830 () Atomic restore: dropping original table (wp4a_term_relationships)
+0000.838 () Atomic restore: renaming new table (at_term_relationships) to final table name (wp4a_term_relationships)
+0000.843 () Processing table (MyISAM): wp4a_term_taxonomy - will restore as: at_term_taxonomy
+0000.861 () Atomic restore: dropping original table (wp4a_term_taxonomy)
+0000.869 () Atomic restore: renaming new table (at_term_taxonomy) to final table name (wp4a_term_taxonomy)
+0000.875 () Processing table (MyISAM): wp4a_termmeta - will restore as: at_termmeta
+0000.892 () Atomic restore: dropping original table (wp4a_termmeta)
+0000.898 () Database queries processed: 50 in 0.85 seconds
+0000.898 () Atomic restore: renaming new table (at_termmeta) to final table name (wp4a_termmeta)
+0000.905 () Processing table (MyISAM): wp4a_terms - will restore as: at_terms
+0000.926 () Atomic restore: dropping original table (wp4a_terms)
+0000.933 () Atomic restore: renaming new table (at_terms) to final table name (wp4a_terms)
+0000.937 () Processing table (MyISAM): wp4a_actionscheduler_actions - will restore as: at_actionscheduler_actions
+0000.959 () Atomic restore: dropping original table (wp4a_actionscheduler_actions)
+0000.968 () Atomic restore: renaming new table (at_actionscheduler_actions) to final table name (wp4a_actionscheduler_actions)
+0000.974 () Processing table (MyISAM): wp4a_actionscheduler_claims - will restore as: at_actionscheduler_claims
+0000.988 () Atomic restore: dropping original table (wp4a_actionscheduler_claims)
+0000.994 () Atomic restore: renaming new table (at_actionscheduler_claims) to final table name (wp4a_actionscheduler_claims)
+0001.002 () Processing table (MyISAM): wp4a_actionscheduler_groups - will restore as: at_actionscheduler_groups
+0001.020 () Atomic restore: dropping original table (wp4a_actionscheduler_groups)
+0001.026 () Atomic restore: renaming new table (at_actionscheduler_groups) to final table name (wp4a_actionscheduler_groups)
+0001.031 () Processing table (MyISAM): wp4a_actionscheduler_logs - will restore as: at_actionscheduler_logs
+0001.053 () Atomic restore: dropping original table (wp4a_actionscheduler_logs)
+0001.062 () Atomic restore: renaming new table (at_actionscheduler_logs) to final table name (wp4a_actionscheduler_logs)
+0001.067 () Processing table (MyISAM): wp4a_burst_browser_versions - will restore as: at_burst_browser_versions
+0001.085 () Atomic restore: dropping original table (wp4a_burst_browser_versions)
+0001.093 () Atomic restore: renaming new table (at_burst_browser_versions) to final table name (wp4a_burst_browser_versions)
+0001.099 () Processing table (MyISAM): wp4a_burst_browsers - will restore as: at_burst_browsers
+0001.117 () Atomic restore: dropping original table (wp4a_burst_browsers)
+0001.122 () Atomic restore: renaming new table (at_burst_browsers) to final table name (wp4a_burst_browsers)
+0001.129 () Processing table (MyISAM): wp4a_burst_devices - will restore as: at_burst_devices
+0001.149 () Atomic restore: dropping original table (wp4a_burst_devices)
+0001.157 () Atomic restore: renaming new table (at_burst_devices) to final table name (wp4a_burst_devices)
+0001.162 () Processing table (MyISAM): wp4a_burst_platforms - will restore as: at_burst_platforms
+0001.182 () Atomic restore: dropping original table (wp4a_burst_platforms)
+0001.188 () Atomic restore: renaming new table (at_burst_platforms) to final table name (wp4a_burst_platforms)
+0001.194 () Processing table (MyISAM): wp4a_cmplz_cookiebanners - will restore as: at_cmplz_cookiebanners
+0001.214 () Atomic restore: dropping original table (wp4a_cmplz_cookiebanners)
+0001.223 () Atomic restore: renaming new table (at_cmplz_cookiebanners) to final table name (wp4a_cmplz_cookiebanners)
+0001.229 () Processing table (MyISAM): wp4a_cmplz_cookies - will restore as: at_cmplz_cookies
+0001.247 () Atomic restore: dropping original table (wp4a_cmplz_cookies)
+0001.254 () Atomic restore: renaming new table (at_cmplz_cookies) to final table name (wp4a_cmplz_cookies)
+0001.260 () Processing table (MyISAM): wp4a_cmplz_dnsmpd - will restore as: at_cmplz_dnsmpd
+0001.278 () Atomic restore: dropping original table (wp4a_cmplz_dnsmpd)
+0001.283 () Atomic restore: renaming new table (at_cmplz_dnsmpd) to final table name (wp4a_cmplz_dnsmpd)
+0001.291 () Processing table (MyISAM): wp4a_cmplz_services - will restore as: at_cmplz_services
+0001.310 () Atomic restore: dropping original table (wp4a_cmplz_services)
+0001.318 () Atomic restore: renaming new table (at_cmplz_services) to final table name (wp4a_cmplz_services)
+0001.322 () Processing table (MyISAM): wp4a_e_events - will restore as: at_e_events
+0001.339 () Atomic restore: dropping original table (wp4a_e_events)
+0001.347 () Atomic restore: renaming new table (at_e_events) to final table name (wp4a_e_events)
+0001.355 () Processing table (MyISAM): wp4a_presto_player_audio_presets - will restore as: at_presto_player_audio_presets
+0001.371 () Atomic restore: dropping original table (wp4a_presto_player_audio_presets)
+0001.378 () Atomic restore: renaming new table (at_presto_player_audio_presets) to final table name (wp4a_presto_player_audio_presets)
+0001.385 () Processing table (MyISAM): wp4a_presto_player_email_collection - will restore as: at_presto_player_email_collection
+0001.403 () Atomic restore: dropping original table (wp4a_presto_player_email_collection)
+0001.408 () Atomic restore: renaming new table (at_presto_player_email_collection) to final table name (wp4a_presto_player_email_collection)
+0001.414 () Processing table (MyISAM): wp4a_presto_player_presets - will restore as: at_presto_player_presets
+0001.434 () Atomic restore: dropping original table (wp4a_presto_player_presets)
+0001.443 () Atomic restore: renaming new table (at_presto_player_presets) to final table name (wp4a_presto_player_presets)
+0001.447 () Processing table (MyISAM): wp4a_presto_player_videos - will restore as: at_presto_player_videos
+0001.463 () Atomic restore: dropping original table (wp4a_presto_player_videos)
+0001.471 () Database queries processed: 100 in 1.42 seconds
+0001.471 () Atomic restore: renaming new table (at_presto_player_videos) to final table name (wp4a_presto_player_videos)
+0001.479 () Processing table (MyISAM): wp4a_presto_player_visits - will restore as: at_presto_player_visits
+0001.494 () Atomic restore: dropping original table (wp4a_presto_player_visits)
+0001.500 () Atomic restore: renaming new table (at_presto_player_visits) to final table name (wp4a_presto_player_visits)
+0001.505 () Processing table (MyISAM): wp4a_presto_player_webhooks - will restore as: at_presto_player_webhooks
+0001.524 () Atomic restore: dropping original table (wp4a_presto_player_webhooks)
+0001.530 () Atomic restore: renaming new table (at_presto_player_webhooks) to final table name (wp4a_presto_player_webhooks)
+0001.535 () Processing table (MyISAM): wp4a_surecart_incoming_webhooks - will restore as: at_surecart_incoming_webhooks
+0001.549 () Atomic restore: dropping original table (wp4a_surecart_incoming_webhooks)
+0001.558 () Atomic restore: renaming new table (at_surecart_incoming_webhooks) to final table name (wp4a_surecart_incoming_webhooks)
+0001.565 () Processing table (MyISAM): wp4a_surecart_integrations - will restore as: at_surecart_integrations
+0001.579 () Atomic restore: dropping original table (wp4a_surecart_integrations)
+0001.585 () Atomic restore: renaming new table (at_surecart_integrations) to final table name (wp4a_surecart_integrations)
+0001.592 () Processing table (MyISAM): wp4a_wpforms_logs - will restore as: at_wpforms_logs
+0001.609 () Atomic restore: dropping original table (wp4a_wpforms_logs)
+0001.615 () Atomic restore: renaming new table (at_wpforms_logs) to final table name (wp4a_wpforms_logs)
+0001.620 () Processing table (MyISAM): wp4a_wpforms_payment_meta - will restore as: at_wpforms_payment_meta
+0001.636 () Atomic restore: dropping original table (wp4a_wpforms_payment_meta)
+0001.644 () Atomic restore: renaming new table (at_wpforms_payment_meta) to final table name (wp4a_wpforms_payment_meta)
+0001.650 () Processing table (MyISAM): wp4a_wpforms_payments - will restore as: at_wpforms_payments
+0001.663 () Atomic restore: dropping original table (wp4a_wpforms_payments)
+0001.670 () Atomic restore: renaming new table (at_wpforms_payments) to final table name (wp4a_wpforms_payments)
+0001.678 () Processing table (MyISAM): wp4a_wpforms_tasks_meta - will restore as: at_wpforms_tasks_meta
+0001.689 () Skipped execution of SQL statement (unwanted or internally handled type=18): /*!40101 SET SQL_MODE=@OLD_SQL_MODE */;
+0001.729 () Unlocking database and leaving maintenance mode
+0001.729 () Disabling Maintenance mode&#8230;
+0001.729 () Atomic restore: dropping original table (wp4a_wpforms_tasks_meta)
+0001.736 () Atomic restore: renaming new table (at_wpforms_tasks_meta) to final table name (wp4a_wpforms_tasks_meta)
+0001.740 () Finished: lines processed: 119 in 1.69 seconds
+0001.741 () Cleaning up rubbish...
+0001.742 () Begin search and replace (updraftplus_restored_db)
+0001.742 () [Database-replace-site-url] Database: search and replace site URL
+0001.742 () This option was not selected.
+0001.754 () Entity: plugins
+0001.754 () restore_backup(backup_file=backup_2025-01-07-2043_HealthSathi_353a9db2f705-plugins.zip, type=plugins, info=a:3:{s:4:"path";s:69:"/home/vol19_1/infinityfree.com/if0_37179288/htdocs/wp-content/plugins";s:11:"description";s:7:"Plugins";s:20:"singular_description";s:6:"Plugin";}, last_one=)
+0001.755 () Unpacking backup... (backup_2025-01-07-2043_HealthSathi_353a9db2f705-plugins.zip, 47.4 MB)
+0001.758 () Unzipping backup_2025-01-07-2043_HealthSathi_353a9db2f705-plugins.zip to /home/vol19_1/infinityfree.com/if0_37179288/htdocs/wp-content/upgrade/e0dd0aeb/ using UpdraftPlus_ZipArchive, starting index 0
+0002.272 () Unzip progress: 1415 out of 9502 files (28 B, plugins/index.php)
+0005.383 () Unzip progress: 2416 out of 9502 files (13.4 MB, plugins/complianz-gdpr/integrations/admin/integrations.php)
+0007.661 () Unzip progress: 3417 out of 9502 files (22.3 MB, plugins/complianz-terms-conditions/assets/vendor/mpdf/mpdf/src/Log/Context.php)
+0011.503 () Unzip progress: 4418 out of 9502 files (41.3 MB, plugins/elementor/assets/js/accordion.c16b88b2e8a0c50189bc.bundle.js)
+0018.127 () Unzip progress: 5419 out of 9502 files (77.6 MB, plugins/elementor/license.txt)
+0021.598 () Unzip progress: 6420 out of 9502 files (94.9 MB, plugins/google-site-kit/includes/Core/Util/Health_Checks.php)
+0022.831 () Unzip progress: 7421 out of 9502 files (99 MB, plugins/google-site-kit/third-party/vendor/autoload_files.php)
+0027.290 () Unzip progress: 8422 out of 9502 files (121.9 MB, plugins/updraftplus/images/updraft_vault_logo.png)
+0031.501 () Unzip progress: 9423 out of 9502 files (143.2 MB, plugins/updraftplus/vendor/symfony/event-dispatcher/phpunit.xml.dist)
+0031.902 () Unzip progress: 9502 out of 9502 files (145.3 MB, plugins/updraftplus/updraftplus.php)
+0031.905 () Moving old data: filesystem method / updraft_dir is potentially possible
+0031.906 () Moving old data: can potentially use wp_filesystem method / -old
+0031.906 () Moving old data out of the way...
+0033.907 () Top-level entities being moved: index.php, complianz-gdpr, complianz-terms-conditions, wps-hide-login, performance-lab, speculation-rules, dominant-color-images, optimization-detective, image-prioritizer, updraftplus, loginpress, slim-seo, ultimate-addons-for-gutenberg, really-simple-ssl, elementor, cloudflare
+0033.929 () Moving unpacked backup into place...
+0036.527 () Top-level entities being moved: complianz-gdpr, complianz-terms-conditions, dominant-color-images, elementor, google-site-kit, image-optimization, image-prioritizer, loginpress, optimization-detective, performance-lab, really-simple-ssl, slim-seo, speculation-rules, ultimate-addons-for-gutenberg, updraftplus, wps-hide-login, index.php
+0036.543 () Cleaning up rubbish...
+0036.546 () Entity: themes
+0036.546 () restore_backup(backup_file=backup_2025-01-07-2043_HealthSathi_353a9db2f705-themes.zip, type=themes, info=a:3:{s:4:"path";s:68:"/home/vol19_1/infinityfree.com/if0_37179288/htdocs/wp-content/themes";s:11:"description";s:6:"Themes";s:20:"singular_description";s:5:"Theme";}, last_one=)
+0036.547 () Unpacking backup... (backup_2025-01-07-2043_HealthSathi_353a9db2f705-themes.zip, 24.2 MB)
+0036.548 () Unzipping backup_2025-01-07-2043_HealthSathi_353a9db2f705-themes.zip to /home/vol19_1/infinityfree.com/if0_37179288/htdocs/wp-content/upgrade/da85df7b/ using UpdraftPlus_ZipArchive, starting index 0
+0039.751 () Unzip progress: 1002 out of 1648 files (22 MB, themes/astra/inc/builder/type/header/social-icon/assets/js/minified/customizer-preview.min.js)
+0043.191 () Unzip progress: 1648 out of 1648 files (40.5 MB, themes/twentytwentyfive/style.css)
+0043.192 () Moving old data: filesystem method / updraft_dir is potentially possible
+0043.192 () Moving old data: can potentially use wp_filesystem method / -old
+0043.192 () Moving old data out of the way...
+0043.601 () Top-level entities being moved: index.php, astra, twentytwentyfive
+0043.606 () Moving unpacked backup into place...
+0044.130 () Top-level entities being moved: astra, twentytwentyfive, twentytwentyfour, twentytwentythree, twentytwentytwo, index.php
+0044.135 () Cleaning up rubbish...
+0044.138 () Entity: uploads
+0044.138 () restore_backup(backup_file=backup_2025-01-07-2043_HealthSathi_353a9db2f705-uploads.zip, type=uploads, info=a:2:{s:4:"path";s:69:"/home/vol19_1/infinityfree.com/if0_37179288/htdocs/wp-content/uploads";s:11:"description";s:7:"Uploads";}, last_one=)
+0044.139 () Unpacking backup... (backup_2025-01-07-2043_HealthSathi_353a9db2f705-uploads.zip, 33.5 MB)
+0044.140 () Unzipping backup_2025-01-07-2043_HealthSathi_353a9db2f705-uploads.zip to /home/vol19_1/infinityfree.com/if0_37179288/htdocs/wp-content/upgrade/8ddac699/ using UpdraftPlus_ZipArchive, starting index 0
+0053.064 () Unzip progress: 311 out of 311 files (57 MB, uploads/simply-static/5b59b3593d972c46394db81e08576443-debug.txt)
+0053.065 () Moving old data: filesystem method / updraft_dir is potentially possible
+0053.066 () Moving old data: can potentially use wp_filesystem method / -old
+0053.066 () Moving old data out of the way...
+0053.143 () Moving unpacked backup into place...
+0053.217 () Cleaning up rubbish...
+0053.220 () Entity: others
+0053.220 () restore_backup(backup_file=backup_2025-01-07-2043_HealthSathi_353a9db2f705-others.zip, type=others, info=a:2:{s:4:"path";s:61:"/home/vol19_1/infinityfree.com/if0_37179288/htdocs/wp-content";s:11:"description";s:6:"Others";}, last_one=1)
+0053.221 () Unpacking backup... (backup_2025-01-07-2043_HealthSathi_353a9db2f705-others.zip, 0 MB)
+0053.222 () Unzipping backup_2025-01-07-2043_HealthSathi_353a9db2f705-others.zip to /home/vol19_1/infinityfree.com/if0_37179288/htdocs/wp-content/upgrade/08b5f6fe/ using UpdraftPlus_ZipArchive, starting index 0
+0053.225 () Unzip progress: 5 out of 5 files (3.4 KB, object-cache.php)
+0053.227 () PHP event: code E_WARNING: file_exists(): open_basedir restriction in effect. File(/home/vol19_1/infinityfree.com/if0_37179288/htdocs/wp-content/upgrade/08b5f6fe/index.php/index.php) is not within the allowed path(s): (/php_sessions:/tmp:..:/var/www/errors:/home/vol19_1/infinityfree.com/if0_37179288/htdocs) (line 419, wp-admin/includes/class-wp-filesystem-direct.php)
+0053.228 () PHP event: code E_WARNING: file_exists(): open_basedir restriction in effect. File(/home/vol19_1/infinityfree.com/if0_37179288/htdocs/wp-content/upgrade/08b5f6fe/advanced-cache.php/advanced-cache.php) is not within the allowed path(s): (/php_sessions:/tmp:..:/var/www/errors:/home/vol19_1/infinityfree.com/if0_37179288/htdocs) (line 419, wp-admin/includes/class-wp-filesystem-direct.php)
+0053.229 () PHP event: code E_WARNING: file_exists(): open_basedir restriction in effect. File(/home/vol19_1/infinityfree.com/if0_37179288/htdocs/wp-content/upgrade/08b5f6fe/object-cache.php/object-cache.php) is not within the allowed path(s): (/php_sessions:/tmp:..:/var/www/errors:/home/vol19_1/infinityfree.com/if0_37179288/htdocs) (line 419, wp-admin/includes/class-wp-filesystem-direct.php)
+0053.230 () Cleaning up rubbish...
+0053.277 () Elementor's clear cache method exists and will be executed
+0053.286 () Purging cache directory: /home/vol19_1/infinityfree.com/if0_37179288/htdocs/wp-content/cache
+0054.013 () Restore successful!
+0054.013 () Restore successful
