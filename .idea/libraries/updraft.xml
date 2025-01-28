@@ -1,0 +1,12 @@
+<component name="libraryTable">
+  <library name="updraft">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/htdocs/wp-content/updraft/backup_2025-01-07-2043_HealthSathi_353a9db2f705-plugins.zip!/" />
+      <root url="jar://$PROJECT_DIR$/htdocs/wp-content/updraft/backup_2025-01-07-2043_HealthSathi_353a9db2f705-themes.zip!/" />
+      <root url="jar://$PROJECT_DIR$/htdocs/wp-content/updraft/backup_2025-01-07-2043_HealthSathi_353a9db2f705-others.zip!/" />
+      <root url="jar://$PROJECT_DIR$/htdocs/wp-content/updraft/backup_2025-01-07-2043_HealthSathi_353a9db2f705-uploads.zip!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>
